@@ -1,0 +1,73 @@
+input:focus, button:focus {
+    outline: none;
+}
+
+body {
+    background: cornflowerblue;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    background: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20rem;
+    width: 35%;
+    box-shadow: 5px 10px 0px;
+    border-radius: 8px;
+}
+
+.register-form {
+    background: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20rem;
+    width: 35%;
+    box-shadow: 5px 10px 0px #707070;
+    border-radius: 8px;
+}
+
+input {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+
+button {
+    padding: 1rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    width: 30%;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-register {
+    padding: 1rem;
+    color: black;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 8px;
+    width: 30%;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-register:hover, button:hover {
+    transition: 0.2s;
+    opacity: 0.5;
+}
